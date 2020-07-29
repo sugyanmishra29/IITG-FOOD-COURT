@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="Welcome back"
+        android:textColor="#0A0A0A"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/siUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="24dp"
+        android:hint="User Name"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/textView"
+        />
+
+    <EditText
+        android:id="@+id/siPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="24dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@id/siUsername"
+        />
+
+    <Button
+        android:id="@+id/btnSignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="32dp"
+        android:text="Sign In"
+        android:layout_below="@id/siPassword"
+        android:layout_marginLeft="66dp"
+        />
+
+    <Button
+        android:id="@+id/btnResetsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+
+        android:layout_below="@id/siPassword"
+        android:layout_marginTop="32dp"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="66dp"
+        />
+</RelativeLayout>
